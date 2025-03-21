@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExamenMaui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid BackgroundColor="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" WidthRequest="180" HeightRequest="500" BackgroundColor="Green" Margin="100,0,0,0"/>
+                <Grid Grid.Column="0" WidthRequest="180" HeightRequest="270" BackgroundColor="Green" Margin="100,410,0,0"/>
+                <Grid Grid.Column="1" WidthRequest="180" HeightRequest="500" BackgroundColor="Green" Margin="300,0,0,0"/>
+                <Grid Grid.Column="1" WidthRequest="180" HeightRequest="70" BackgroundColor="Green" Margin="300,310,0,0"/>
+                <Grid Grid.Column="1" WidthRequest="180" HeightRequest="70" BackgroundColor="Green" Margin="300,410,0,0"/>
+                <Grid Grid.Column="1" WidthRequest="180" HeightRequest="70" BackgroundColor="Green" Margin="300,510,0,0"/>
+
+                <Grid Grid.ColumnSpan="2" WidthRequest="380" HeightRequest="180" BackgroundColor="Green" Margin="200,660,0,0"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+
+
+
+
+
+
+
